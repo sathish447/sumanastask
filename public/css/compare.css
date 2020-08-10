@@ -1,0 +1,98 @@
+
+.compare_bar {
+width: 250px;
+background: #cd1b21 none repeat scroll 0 0;
+position: fixed;
+bottom: 0;
+z-index: 1001;
+height: 40px;
+line-height: 40px;
+color: #555;
+}
+
+.compare_bar ul{
+	text-align: center;
+	padding:0;
+	margin: 0;
+	list-style: none;
+}
+.compare_bar ul li a
+{
+	font-size: 16px;
+    color: #fff !important;
+    text-decoration: none;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.relPos {
+    height: 120px;
+    position: relative;
+    width: auto;
+	text-align: center;
+}
+
+.relPos .w3-white.titleMargin {
+    display: table-cell;
+    height: 120px;
+    vertical-align: middle;
+    width: 1%;
+}
+
+.w3-closebtn {
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    right: 8px;
+    top: -2px;
+}
+
+.relPos .w3-white.titleMargin img{
+	height: 80px;
+	width: 80px;
+    max-width: 100%;
+}
+
+.no_img
+{
+	/*opacity: 0.3;*/
+}
+
+/*Compare End*/
+
+/*--compare--*/
+.titleMargin
+{
+  margin-left: 2px;
+  margin-right: 3px;
+}
+.w3-center
+{
+	width: 40%;
+    position: absolute;
+    top: 100%;
+}
+.cmprBtn
+{
+	    margin-left: 13px;
+}
+.notActive 
+{
+	margin-left: 5px;
+    margin-top: 15px;
+}
+@media screen and (min-width:993px) and (max-width: 1500px) {
+.comparePanle {  width: 75% !important;}
+	.w3-btn{margin-top:10px; margin-left:15px;}
+	.description_tabs .nav-tabs > li {
+    float: left !important;
+    width: 31% !important;
+    padding: 0px 1em;
+}
+	.replaie_commentinput {
+		margin: 10px 0px;
+	}
+}
+/*--compare end--*/
+
+.w3-container{padding:1.01em 16px}

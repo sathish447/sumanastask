@@ -1,0 +1,606 @@
+
+input:not([type="file"]).error,
+textarea.error,
+select.error {
+  border: 1px solid red !important;
+  border-radius: 4px!important;
+}
+
+input:not([type="file"]).no-error,
+textarea.no-error,
+select.no-error {
+  border: 1px solid green !important;
+}
+
+div.error-field {
+  color: red;
+  /*font-size: small;*/
+  text-align:left;
+}
+.static-value {
+    position: absolute;
+    left: 18px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #444;
+    top: 179px;
+}
+/* .static-value{ */
+	/* position:absolute; */
+	/* left:10px; */
+	/* font-weight:bold; */
+	/* font-size:0.8em; */
+	/* color:#444; */
+	/* top:9px; */
+/* } */
+.checkbox + label, .radio-button + label
+{
+	cursor: pointer;
+    line-height: 17px;
+    padding-left: 25px;
+    position: relative;
+}
+.checkout-section .check-box input[type="checkbox"]
+{
+	
+     margin: 5px 0 0;
+    min-height: 1px;
+    display: none;
+}
+.check_box_m
+{
+	    margin-left: 2px !important;
+    font-size: 14px;
+    width: 22px;
+    background: #c82222;
+    /* float: left; */
+    /* margin-top: -2px !important; */
+}
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/*@font-face {
+  font-family: 'password';
+  font-style: normal;
+  font-weight: 400;
+  src: url();
+}
+
+@font-face {
+    font-family: 'password';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/password.ttf') format('truetype');
+}
+input.key {
+  font-family: 'password';
+  //width: 100px; height: 16px;  
+}*/
+input.key {
+
+
+  -webkit-text-security: disc;
+
+
+}
+ .input-euro {
+     position: relative;
+ }
+ .input-euro.left input {
+     padding-left:28px;
+ }
+ .input-euro.right input {
+     padding-right:28px;
+     text-align:end;
+ }
+
+ .input-euro:before {
+     position: absolute;
+     top: 0;
+     content:"+91";
+ }
+ .input-euro.left:before {
+     left: 5px;
+ }
+ .input-euro.right:before {
+     right: 5px;
+ }
+ .intl-tel-input {
+  position: relative;
+  display: inline-block; }
+  .intl-tel-input * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+  .intl-tel-input .hide {
+    display: none; }
+  .intl-tel-input .v-hide {
+    visibility: hidden; }
+  .intl-tel-input input, .intl-tel-input input[type=text], .intl-tel-input input[type=tel] {
+    position: relative;
+    z-index: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-right: 36px;
+    margin-right: 0; }
+	/*.intl-tel-input .flag-container {
+    position: absolute;
+    top: -12px;
+    bottom: 0;
+    right: 0;
+    padding: -6px;
+    }*/
+   .intl-tel-input .flag-container {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     padding: 1px; }
+  .intl-tel-input .selected-flag {
+    z-index: 1;
+    position: relative;
+    width: 36px;
+    height: 100%;
+    padding: 7px 0 0 8px; }
+    .intl-tel-input .selected-flag .iti-flag {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+    .intl-tel-input .selected-flag .iti-arrow {
+      position: absolute;
+      top: 50%;
+      margin-top: -2px;
+      right: 6px;
+      width: 0;
+      height: 0;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      border-top: 4px solid #555; }
+      .intl-tel-input .selected-flag .iti-arrow.up {
+        border-top: none;
+        border-bottom: 4px solid #555; }
+
+    .intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name, .intl-tel-input .country-list .dial-code {
+      vertical-align: middle; }
+    .intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name {
+      margin-right: 6px; }
+  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+  padding-right:356px;
+  /*width:100%;*/
+    padding-left: 39px;
+    margin-left: 0;
+}
+  .intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    right: auto;
+    left: 0; }
+  .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+   width: 35px;
+  }
+@media (max-width: 767px){
+
+    .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+        padding-right: 243px;
+        /* width: 100%; */
+        padding-left: 39px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 996px) {
+    .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+        padding-right: 147px;
+        /* width: 100%; */
+        padding-left: 39px;
+        margin-left: 0;
+    }
+}
+@media (max-width:  320px){
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-right: 127px;
+    /* width: 100%; */
+    padding-left: 39px;
+    margin-left: 0;
+}}
+@media only screen and (max-width: 1200px) {
+  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-right: 312px;
+    /* width: 100%; */
+    padding-left: 39px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-right: 161px;
+    /* width: 100%; */
+    padding-left: 39px;
+    margin-left: 0;
+  }
+}
+
+.tel1 {
+    padding-right: 256px!important;
+    /* width: 100%; */
+    padding-left: 39px;
+    margin-left: 0;
+}
+/*---track--*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+table.table {
+    border: 15px solid #f5f5f5;
+    /* border-top: none; */
+    margin-bottom: 10px;
+}
+
+.commun-table .table thead tr th {
+    background: #f5f5f5;
+    border-bottom: none;
+    padding: 22px 20px;
+}
+.checkout-step ul li .step .line {
+    background: #ff3030 none repeat scroll 0 0;
+    float: left;
+    height: 5px;
+    margin: 12px -1px 12px 0;
+    width: -4px;
+}
+.wrapper {
+    margin-bottom: -37px;
+  background: ;
+ width:759px;
+  height: 160px;
+}
+
+.margin-area {
+  position: relative;
+  text-align: center;
+  
+  font-size: 14px;
+  margin: 0 20px;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  top: 10px;
+  color: #fff;
+  line-height: 30px;
+  z-index: 9999;
+}
+.dot.one {
+ left: 30px;
+  background: #0C84D9;
+}
+.dot.two {
+  left: 223px;
+  background: #0C84D9;
+}
+.dot.three {
+  left:422px;
+  background: #bbb;
+  color: #fff;
+}
+.dot.four {
+      left: 588px;
+  background: #bbb;
+  color: #fff;
+}
+
+.progress-bar {
+  position: absolute;
+  height: 10px;
+  width: 25%;
+  top: 20px;
+  left: 8%;
+  background: #bbb;
+}
+.progress-bar.first {
+  background: #0C84D9;
+}
+.progress-bar.second {
+  left: 35%;
+}
+.progress-bar.third {
+  left: 60%;
+}
+.message {
+  position: absolute;
+  height: 60px;
+  width: 170px;
+  padding: 10px;
+  margin: 0;
+  left: -8px;
+  top: 0;
+  color: #000;
+}
+.message.message-1 {
+  top: 40px;
+  color: #000;
+}
+.message.message-2 {
+  left: 129px;
+}
+.message.message-3 {
+  left: 283px;
+  color: #000;
+}
+.message.message-4 {
+     left: 449px;
+}
+.cart-item-table thead tr th:first-child, .cart-item-table tbody tr td:first-child {
+    max-width: 110px;
+}
+.cart-item-table tbody tr td:last-child, .cart-item-table thead tr th:last-child
+{
+	text-align:center;
+}
+.product-image {
+    background: #9d9d9d none repeat scroll 0 0;
+    min-width: 70px;
+    overflow: hidden;
+    position: relative;
+}
+.track_order
+{
+		margin-top:3em;
+}
+.track_button 
+{
+	background: #25a3c0;
+    border-radius: 19px;
+    padding: 10px;
+    border: none;
+	color: white;
+}
+.sidebar-row {
+    margin-top: 2em;
+}
+.sidebar-row_1
+ {
+	 /* margin-top:10em; */
+ }
+.rsidebar {
+    display: block;
+    float: left;
+    width: 22%;
+    padding: 0;
+}
+.rsidebar h4 {
+    font-size: 1.2em;
+    color: #353F49;
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    margin-bottom: 1.2em;
+}
+.rsidebar-top {
+    border: 1px solid #E8E8E8;
+    padding: 2em;
+    -webkit-box-shadow: 0px 0px 5px 1px #777;
+    -moz-box-shadow: 0px 0px 5px 1px #777;
+    box-shadow: 0px 0px 5px 1px #777;
+    box-shadow: 0px 0px 5px 1px #777;
+}
+.checkbox {
+    position: relative;
+    padding-left: 32px !important;
+    cursor: pointer;
+    line-height: initial;
+    font-size: 1em;
+    color: #353F49;
+    font-weight: 500;
+        margin: 0 0 1.5em;
+}
+.checkbox i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 23px;
+    height: 22px;
+    outline: none;
+    border: 2px solid #D8D8D8;
+    background: #FFF;
+}
+.checkbox input + i:after,.radio input + i:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+.checkbox input:checked + i:after,.radio input:checked + i:after{
+    opacity: 1;
+}
+.checkbox input,.radio input {
+    position: absolute;
+    left: -9999px;
+}
+.checkbox input + i:after {
+    content: '';
+    background: url("../images/tick1.png") no-repeat 4px 3px;
+    top: -1px;
+    left: -1px;
+    width: 17px;
+    height: 17px;
+    font: normal 12px/16px FontAwesome;
+    text-align: center;
+}
+/*-- start scrollpane --*/
+.scroll-pane.jspScrollable {
+    outline: none;
+}
+.jspContainer{
+	overflow: hidden;
+	position: relative;
+}
+.jspPane{
+	position: absolute;
+	outline: none;
+	padding:5px 20px 20px 10px !important;
+}
+.jspVerticalBar{
+	position: absolute;
+	top: 0;
+	right:0px;
+	width:3px;
+	height: 100%;
+}
+.jspHorizontalBar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+.jspCap{
+	display: none;
+}
+.jspHorizontalBar .jspCap{
+	float: left;
+}
+.jspTrack{
+	background: #B9B7B7;
+	position: relative;
+}
+.jspDrag{
+	background: #777777;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.jspHorizontalBar .jspTrack,.jspHorizontalBar .jspDrag{
+	float: left;
+	height: 100%;
+}
+.jspArrow{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+.jspArrow.jspDisabled{
+	cursor: default;
+	background: #80808d;
+}
+.jspVerticalBar .jspArrow{
+	height: 16px;
+}
+.jspHorizontalBar .jspArrow{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+.jspVerticalBar .jspArrow:focus{
+	outline: none;
+}
+.jspCorner{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+.scroll-pane {
+    /* height: 160px; */
+}
+input#amount {
+    outline: none;
+}
+.faq li {
+    margin-top: 0.8em;
+    display: block;
+}
+.faq > li > a {
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #ff590f;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.faq span.glyphicon {
+    float: right;
+}
+.scroll-pane {
+    /* height: 160px; */
+}
+.jspContainer {
+    overflow: hidden;
+    position: relative;
+}.jspPane {
+    position: absolute;
+    outline: none;
+    padding: 5px 20px 20px 10px !important;
+}
+.checkbox {
+    position: relative;
+    padding-left: 32px !important;
+    cursor: pointer;
+    line-height: initial;
+    font-size: 1em;
+    color: #353F49;
+    font-weight: 500;
+    margin: 0 0 1.5em;
+}.radio + .radio, .checkbox + .checkbox {
+    margin-top: -5px;
+}
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 3px;
+    height: 100%;
+}
+.jspCap {
+    display: none;
+}.jspTrack {
+    background: #B9B7B7;
+    position: relative;
+}
+.form-control_2
+{
+	width:100%;
+}
+.contentpage h3 {
+    color: red;
+    margin-top: 23px;
+    font-size: 21px;
+}
+.contentpage{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.flag_m_7
+{
+	margin-top:7px;
+}
+.validation_falied{border:1px solid red; color:red !important;}
+.validation_success{border:1px solid green; color:green !important;}
